@@ -1,0 +1,28 @@
+.grow1 {
+    flex: 1;
+}
+.grow3 {
+    flex: 3;
+}
+.floor {
+    height: 200px;
+    width: 100%;
+    border: black solid 1px;
+    box-sizing: border-box;
+}
+.liftContainer {
+    position: relative;
+    width: 200px;
+    background-color: #dff6ed;
+}
+.lift {
+    height: 200px;
+    width: 100%;
+    background-color: #f6e7c0;
+}
+.buttons > div {
+    padding: 10px;
+    margin: 10px;
+    background-color: #cccccc;
+    cursor: pointer;
+}
